@@ -6,11 +6,10 @@
   Please let us know how we did with your support request. All feedback is appreciated
   to help us improve our offering!
 </p>
-<ol class="ratings">
-  <li class="rating-score" (click)="setRating(1)">1</li>
-  <li class="rating-score" (click)="setRating(2)">2</li>
-  <li class="rating-score" (click)="setRating(3)">3</li>
-  <li class="rating-score" (click)="setRating(4)">4</li>
-  <li class="rating-score" (click)="setRating(5)">5</li>
+<ol class="ratings" role="radiogroup">
+  <li *ngFor="let i of [1, 2, 3, 4, 5]" class="rating-score" role="radio"
+      [attr.aria-checked]="rating == i" (click)="setRating(i)">
+    {{i}}
+  </li>
 </ol>
 <button class="submit-button" (click)="sendRating()">Submit</button>

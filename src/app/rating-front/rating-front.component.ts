@@ -6,7 +6,7 @@ import { Component, EventEmitter, Output } from "@angular/core";
   styleUrls: ["./rating-front.component.scss"],
 })
 export class RatingFrontComponent {
-  private rating = 0;
+  protected rating = 0;
 
   @Output()
   private ratingEvent = new EventEmitter<number>();

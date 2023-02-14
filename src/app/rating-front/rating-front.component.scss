@@ -40,7 +40,18 @@
   height: 42px;
   border-radius: 50%;
   background: map-get($palette, "Dark Blue");
+  cursor: pointer;
   @extend %rating;
+}
+
+.rating-score[aria-checked="true"] {
+  background: map-get($palette, "Orange");
+  color: map-get($palette, "Pure White");
+}
+
+.rating-score[aria-checked="false"]:hover {
+  background: map-get($palette, "Medium Gray");
+  color: map-get($palette, "Pure White");
 }
 
 .submit-button {
@@ -49,7 +60,13 @@
   border-radius: 22.5px;
   background: map-get($palette, "Orange");
   border: none;
+  cursor: pointer;
   @extend %button;
+}
+
+.submit-button:hover {
+  background: map-get($palette, "Pure White");
+  color: map-get($palette, "Orange");
 }
 
 @media (min-width: $desktop-breakpoint) {
