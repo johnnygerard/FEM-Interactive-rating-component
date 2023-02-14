@@ -1,0 +1,17 @@
+@use "../styles.scss" as *;
+
+:host {
+  background: map-get($palette, "Very Dark Blue");
+  display: grid;
+  height: 100%;
+  padding: 0 24px;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background: $black-gradient;
+  padding: 0 24px;
+  margin: auto;
+}
