@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { RatingFrontComponent } from './rating-front/rating-front.component';
+import { RatingBackComponent } from './rating-back/rating-back.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RatingFrontComponent
+    RatingFrontComponent,
+    RatingBackComponent
   ],
   imports: [
     BrowserModule
