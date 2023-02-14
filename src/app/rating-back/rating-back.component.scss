@@ -1,0 +1,26 @@
+@use "../../styles.scss" as *;
+
+.illustration {
+  margin-top: 34px;
+  width: 144px;
+  height: 96px;
+}
+
+.overline {
+  @extend %overline;
+  margin-top: 24px;
+  background: map-get($palette, "Dark Blue");
+  border-radius: 22.5px;
+  padding: 5px 12px;
+}
+
+.heading {
+  @extend %heading;
+  margin-top: 24px;
+}
+
+.body {
+  @extend %body;
+  text-align: center;
+  margin: 10px 0 37px;
+}

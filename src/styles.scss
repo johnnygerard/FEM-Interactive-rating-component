@@ -14,13 +14,21 @@ $black-gradient: radial-gradient(100% 100% at 50% 0%, #232a34 0%, #181e27 100%);
 $desktop-breakpoint: 1440px;
 
 // Typography ******************************************************************
+%overline {
+  font-family: Overpass;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: map-get($palette, "Orange");
+}
+
 %heading {
   font-family: Overpass;
   font-size: 24px;
   font-weight: 700;
   line-height: 37px;
   letter-spacing: 0px;
-  text-align: left;
   color: map-get($palette, "Pure White");
 }
 
@@ -30,7 +38,6 @@ $desktop-breakpoint: 1440px;
   font-weight: 400;
   line-height: 22px;
   letter-spacing: 0px;
-  text-align: left;
   color: map-get($palette, "Light Gray");
 }
 
@@ -40,7 +47,6 @@ $desktop-breakpoint: 1440px;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.175px;
-  text-align: center;
   color: map-get($palette, "Medium Gray");
 }
 
@@ -50,7 +56,6 @@ $desktop-breakpoint: 1440px;
   font-weight: 700;
   line-height: 18px;
   letter-spacing: 1.87px;
-  text-align: center;
   text-transform: uppercase;
   color: map-get($palette, "Pure White");
 }

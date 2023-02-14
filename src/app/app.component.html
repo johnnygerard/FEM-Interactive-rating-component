@@ -1,1 +1,5 @@
-<app-rating-front class="rating-container"></app-rating-front>
+<ng-template #ratingFront>
+  <app-rating-front class="rating"></app-rating-front>
+</ng-template>
+
+<app-rating-back *ngIf="rating; else ratingFront" class="rating centered"></app-rating-back>

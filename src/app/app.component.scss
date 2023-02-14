@@ -7,11 +7,15 @@
   padding: 0 24px;
 }
 
-.rating-container {
+.rating {
   display: flex;
   flex-direction: column;
   border-radius: 15px;
   background: $black-gradient;
   padding: 0 24px;
   margin: auto;
+}
+
+.centered {
+  align-items: center;
 }
