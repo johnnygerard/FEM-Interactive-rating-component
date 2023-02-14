@@ -7,4 +7,8 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   rating = 0;
+
+  setRating(rating: number) {
+    this.rating = rating;
+  }
 }
