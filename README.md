@@ -15,9 +15,11 @@ This is my solution to the [Interactive rating component challenge](https://www.
 
 ## Screenshots
 ### Mobile
-![mobile screenshot](./screenshot-mobile.png)
+![mobile front screenshot](./screenshot-front-mobile.png)
+![mobile back screenshot](./screenshot-back-mobile.png)
 ### Desktop
-![desktop screenshot](./screenshot-desktop.png)
+![desktop front screenshot](./screenshot-front-desktop.png)
+![desktop back screenshot](./screenshot-back-desktop.png)
 
 ## About Frontend Mentor
 [Frontend Mentor](https://www.frontendmentor.io/) challenges help you improve your coding skills by building realistic projects.
