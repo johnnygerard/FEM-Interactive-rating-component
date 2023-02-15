@@ -24,3 +24,39 @@
   text-align: center;
   margin: 10px 0 37px;
 }
+
+@media (min-width: $desktop-breakpoint) {
+  .illustration {
+    margin-top: 45px;
+    width: 162px;
+    height: 108px;
+  }
+
+  %overline {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .overline {
+    margin-top: 32px;
+    padding: 4px 20px;
+  }
+
+  %heading {
+    font-size: 28px;
+    line-height: 43px;
+  }
+
+  .heading {
+    margin-top: 32px;
+  }
+
+  %body {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .body {
+    margin: 7px 0 45px;
+  }
+}

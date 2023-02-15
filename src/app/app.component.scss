@@ -20,3 +20,11 @@
 .centered {
   align-items: center;
 }
+
+@media (min-width: $desktop-breakpoint) {
+  .rating {
+    border-radius: 30px;
+    padding: 0 40px 0 32px;
+    max-width: 416px;
+  }
+}
