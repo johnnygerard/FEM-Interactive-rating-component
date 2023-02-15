@@ -11,7 +11,7 @@ This is my solution to the [Interactive rating component challenge](https://www.
 
 ## Links
  - [Live version](https://fem-interactive-rating-component-jgerard.pages.dev) hosted with [Cloudflare Pages](https://pages.cloudflare.com/)
- - [Solution]()
+ - [Solution](https://www.frontendmentor.io/solutions/angular-with-scss-7xxtgORhzC)
 
 ## Screenshots
 ### Mobile
